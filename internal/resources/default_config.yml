@@ -1,0 +1,9 @@
+service:
+  host: "localhost"
+  port: 8080
+limits:
+  idle: "5m"
+  maxTime: "24h"
+motdPath: "motd.ans"
+nodes:
+  - "localhost:8023-8028"
